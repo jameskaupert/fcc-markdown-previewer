@@ -1,0 +1,28 @@
+// Previewer Container
+.previewer-container {
+    flex: 1;
+    margin-left: 0;
+    border: 1px solid $primary-color;
+}
+
+@media all and (min-width: $desktop-width) {
+    .previewer-container {
+        margin-left: $m-size;
+    }
+}
+
+// Title bar
+.previewer__title {
+    background: $primary-color;
+    color: #fff;
+    font-family: $header-font;
+    font-size: $s-size;
+    font-weight: 400;
+    margin: 0;
+    padding: $xs-size;
+}
+
+// Previewer
+.previewer {
+    padding: $s-size;
+}

@@ -1,0 +1,13 @@
+.markdown-previewer-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10vh auto;
+    width: 80vw;
+}
+
+@media all and (min-width: $desktop-width) {
+    .markdown-previewer-app {
+        flex-direction: row;
+    }
+}

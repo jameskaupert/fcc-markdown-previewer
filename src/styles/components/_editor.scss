@@ -1,0 +1,33 @@
+// Editor component container
+.editor-container {
+    flex: 1;
+    margin-right: 0;
+    border: 1px solid $primary-color;
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width: $desktop-width) {
+    .editor-container {
+        margin-right: $m-size;
+    }
+}
+
+// Title bar
+.editor__title {
+    background: $primary-color;
+    color: #fff;
+    font-family: $header-font;
+    font-size: $s-size;
+    font-weight: 400;
+    margin: 0;
+    padding: $xs-size;
+}
+
+// Editor textarea
+.editor {
+    border: 0;
+    margin: 0;
+    padding: $s-size;
+    flex: 1;
+}
