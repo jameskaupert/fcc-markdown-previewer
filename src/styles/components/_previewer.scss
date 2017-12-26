@@ -24,7 +24,13 @@
 
 // Previewer
 .previewer {
+    margin: 0;
     padding: $s-size;
+}
+
+.previewer p,
+.previewer h1, {
+    margin: 0;
 }
 
 .previewer img {

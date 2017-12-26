@@ -2,8 +2,7 @@ import React from "react";
 import Editor from "./Editor";
 import Previewer from "./Previewer";
 
-const initialText = `
-# Header 1 Preview
+const initialText = `# Header 1 Preview
 
 ## Header 2 Preview
 
